@@ -10,7 +10,7 @@ import Employees from "../pages/Employees/Employees";
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main: "#333996",
+      main:    "#333996",  //
       light: '#3c44b126'
     },
     secondary: {
@@ -38,7 +38,7 @@ const theme = createMuiTheme({
 
 const useStyles = makeStyles({
   appMain: {
-    paddingLeft: '320px',
+    paddingLeft: '20px', // 320 original
     width: '100%'
   }
 })
@@ -48,9 +48,9 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <SideMenu />
+      {/* <SideMenu /> */}
       <div className={classes.appMain}>
-        <Header />
+        {/* <Header /> */}
         
         <Employees />
       </div>

@@ -6,7 +6,7 @@ import { makeStyles, withStyles } from "@material-ui/core";
 const style = {
     sideMenu: {
         display: 'flex',
-        flexDirection: 'column',
+        flexDirection: 'column', //column
         position: 'absolute',
         left: '0px',
         width: '320px',
